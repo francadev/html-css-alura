@@ -1,0 +1,73 @@
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.principal{
+    margin: 5% auto;
+    text-align: center;
+    padding: 20px 20px;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.principal h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.principal p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.principal .missao{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: #FFFFFF;
+    background: url("../images/bg.jpg");
+    padding-bottom: 20px;
+}
+
+.imagem-footer{
+    padding: 40px;
+}
+
+.copyright{
+    font-size: 10px;
+    color: #FFFFFF;
+}
